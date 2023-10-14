@@ -1,11 +1,7 @@
 import praw
 
 # Reddit API credentials
-client_id = '7EwyFAbL15YvTz7AuowC3Q'
-client_secret = 's0FGnRQEqx8dxXv1LxN0GHO7js8rKg'
-user_agent = 'sample.script.1.0.0'
-username = 'Boco_the_chocobo'
-password = 'Martin070517'
+
 
 # Initialize the Reddit API client
 reddit = praw.Reddit(
