@@ -1,8 +1,7 @@
 name: Python Script Workflow
 
 on:
-  schedule:
-    - cron: '*/2 * * * *' # Set your desired cron schedule
+  workflow_dispatch:
 
 jobs:
   build:
